@@ -22,7 +22,7 @@ class CreateProductsTable extends Migration
             $table->float('price');
 
             // esto es para clave foranea: 
-            $table->bigInteger('category_id')->unsigned();
+            $table->bigInteger('category_id')->unsigned()->nullable();;
             $table->foreign('category_id')->references('id')->on('categories');
 
             $table->timestamps();
@@ -39,3 +39,4 @@ class CreateProductsTable extends Migration
         Schema::dropIfExists('products');
     }
 }
+

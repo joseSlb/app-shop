@@ -1,0 +1,27 @@
+
+
+**usuario**
+**producto**
+imagen_producto
+
+**Carrito**
+id
+order_date =  fecha_orden
+arrived_date = fecha_recibo
+status = estado    -> active, pending,approved, cancelled, finished
+user_id = id usuario
+
+**Detalle Carrito**
+id
+cart_id = asociado a carrito
+product_id = id producto
+quantity = cantidad
+discount = descuento
+
+**estado carrito:**
+
+active= cuando el usuario guarda cosas en carrito
+pending = si el usuario envio pedido,
+carrito activo pasa a estar vacio y el estado queda en pendiente
+
+*administrador puede aprovar o cancelar pedidos -> approved, Cancelled.Finished
