@@ -1,7 +1,6 @@
 # Aplicacion de Pedidos en Linea - Laravel 5.5 🚀
 
-Proyecto de desarrollo de una aplicación de pedidos en línea en Laravel, Html, Bootstrap y PHP.
-
+Con el objetivo de aprender los conceptos fundamentales más importantes de Laravel, realice el proyecto de desarrollo de una aplicación de pedidos en línea en Laravel, utilizando tambien mis conocimientos Html,Bootstrap y PHP.
 
 ### Pre-requisitos 📋
 
